@@ -127,23 +127,9 @@ var CookieInformerBooklet = {
     script.onload = script.onreadystatechange = function () {
       if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
         done = true;
-        initCookieInformerBookmarklet()
       }
     };
     document.getElementsByTagName("head")[0].appendChild(script)
-  } else {
-    initCookieInformerBookmarklet()
-  }
-
-  function initCookieInformerBookmarklet() {
-    jQuery(document).ready(function () {
-      var options = {
-        title: '',
-        text: 'Websitet anvender cookies til at huske dine indstillinger, statistik og at målrette annoncer. <a href="LINK-TIL-PRIVATLIVSPOLITIK" target="_blank">Læs mere >> </a>',
-        buttonText: 'Cookies'
-      };
-      CookieInformerBooklet.init(options)
-    })
   }
 
   function compareVersion(version1, version2) {
