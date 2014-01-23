@@ -1,3 +1,10 @@
+/*!
+ * Cookie consent script
+ * http://minecookies.org/gratis-script-til-cookiesamtykke
+ *
+ * Copyright 2012, Minecookies.org
+ * Released under Creative Commons Attribution 3.0 Unported
+ */
 var CookieInformerBooklet = CookieInformerBooklet || {};
 var CookieInformerBooklet = {
   config: {
