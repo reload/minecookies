@@ -17,7 +17,7 @@ jQuery(document).ready(function () {
     text: 'Websitet anvender cookies til at huske dine indstillinger, statistik og at målrette annoncer. <a href="LINK-TIL-PRIVATLIVSPOLITIK" target="_blank">Læs mere >> </a>',
     buttonText: 'Cookies'
   };
-  CookieInformerBooklet.init(options)
+  CookieInformerBooklet.init(options);
 });
 ```
 
