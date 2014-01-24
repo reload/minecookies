@@ -1,11 +1,9 @@
 minecookies
 ===========
 
-This is a slightly modified version of version 2 of the cookie consent script from [http://minecookies.org/gratis-script-til-cookiesamtykke](http://minecookies.org/gratis-script-til-cookiesamtykke).
+This is a slightly modified version of the cookie consent script from [http://minecookies.org/gratis-script-til-cookiesamtykke](http://minecookies.org/gratis-script-til-cookiesamtykke).
 
-![Example](http://minecookies.org/sites/default/files/mediearkiv/filer/grey-bar.png =720x))
-
-The goal of the modifications is to allow external parties to modify the configuration of the script such as text, links etc. without altering the source code as suggested by the authors.
+The goal of the modifications is to allow external parties to modify the configuration of the script such as text, links etc. without altering the source code as suggested by the original authors.
 
 Usage
 -----
@@ -22,6 +20,11 @@ jQuery(document).ready(function () {
   CookieInformerBooklet.init(options)
 });
 ```
+
+Example
+-------
+
+![Example](http://minecookies.org/sites/default/files/mediearkiv/filer/grey-bar.png)
 
 License
 -------
